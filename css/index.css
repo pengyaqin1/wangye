@@ -1,0 +1,261 @@
+.on{
+  background-color: #fff;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 434px;
+  overflow: hidden;
+}
+.banner ul li{
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.banner ul li img{
+  width: 100%;
+  height: 434px;
+}
+.banner .circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+}
+.banner .circle li{
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.icont1{
+  height: 500px;
+  width: 100%;
+  padding-top: 48px;
+}
+.icont1 .inews{
+  float: left;
+  width: 800px;
+  height: 100%;
+}
+
+.n_title{
+  width: 100%;
+  height: 39px;
+  line-height: 39px;
+}
+.n_title h2{
+  display: inline-block;
+  font-size: 20px;
+  color: #055035 ;
+  font-weight: normal;
+}
+.n_title i{
+  font-size: 16px;
+  color: #ababab;
+  padding-left: 9px;
+}
+.n_title a{
+  float: right ;
+  width: 68px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  text-align: center;
+  color: #055035;
+}
+.n_title a::after{
+  content: '\e920';
+  display:inline-block;
+  height: 22px;
+  font-size: 12px;
+  vertical-align: middle;
+  font-family: 'icomoon';
+  font-weight: 1000;
+  color:#ababab ;
+}
+.n_title a:hover::after{
+  font-size: 15px;
+}
+.n_title a:hover{
+  background-color: #055035;
+  color: #fff;
+}
+.inews .n_bd{
+  width: 100%;
+  height: 427px;
+}
+.n_bd .bd_content{
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.bd_content .bd_slide{
+  float: left;
+  width: 355px;
+  height: 100%;
+  background-color: #fff;
+}
+.bd_slide .img{
+  display: block;
+  width: 100%;
+  height: 220px;
+ background: url(../images/B1CFE9ABA41168AA0FE165D6291_EE682EEB_45CE4.jpg) no-repeat;
+ background-size:cover;
+}
+
+.bd_slide h5{
+  font-size: 14px;
+  font-weight: normal;
+  color: #055035;
+  margin: 15px 0 13px 0;
+}
+.bd_slide i{
+  font-size: 12px;
+  color: #b6b6b6;
+}
+.bd_slide i::before{
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  vertical-align: -2px;
+  padding-left: 12px;
+  background: url(../images/icon_date.png) no-repeat;
+}
+.bd_slide p{
+  font-size: 12px;
+  color: #333;
+  margin: 16px 0;
+}
+.bd_slide a::after{
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 8px;
+  font-size: 12px;
+  color: #808080;
+  background: url(../images/icon_jt3.png) no-repeat;
+  margin-left: 17px;
+}
+.bd_content .bd_list{
+  float: right;
+  width: 410px;
+  height: 100%;
+  background-color: #fff;
+}
+.bd_list ul{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.bd_list ul li{
+  height: 39px;
+  line-height: 39px;
+  border-bottom: 1px dashed #b6b6b6;
+}
+.bd_list ul li a::before{
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  vertical-align:middle;
+  background-color: #b6b6b6;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.bd_list ul li a:hover{
+  color: #055035 !important;
+}
+.bd_list ul li a:hover::before{
+ background-color: #055035 !important;
+}
+.bd_list ul li a{
+  font-size: 14px;
+  color: #3a3a3a;
+}
+.bd_list ul li span{
+  float: right;
+  font-size: 12px;
+  color: #979797;
+}
+.icont1 .icont1_R{
+  float: right;
+  width: 330px;
+  height: 100%;
+}
+.icont1 .icont1_R .icont1_R_title{
+  height: 39px;
+  line-height: 39px;
+}
+.icont1_R .down,
+.icont1_R .up{
+  padding-top: 9px !important;
+}
+.icont1_R .icont1_R_title h2{
+  display: inline-block;
+  font-weight: normal;
+}
+
+.icont1_R .icont1_R_list ul li{
+  height: 32px;
+  line-height: 32px;
+}
+.icont2{
+  width: 100%;
+  margin-top:42px;
+  background-color:pink;
+}
+.icont2 .icont2_L{
+  float: left;
+  width: 800px;
+  /* height: 74px; */
+}
+.icont2_L ul{
+  width: 100%;
+  height: 74px;
+}
+.icont2_L ul li{
+float: left;
+padding-right: 10px;
+}
+.icont2_L ul li img{
+width: 150px;
+height: 74px;
+}
+.icont2 .icont2_R{
+  float: right;
+  /* padding-left: 75px; */
+}
+.icont2_R ul{
+  width: 330px;
+  height: 74px;
+}
+.icont2_R ul li{
+  float: left;
+  width: 100px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  background-color: #eee;
+}
+.icont2_R ul li a:hover{
+  display: block;
+  background-color: #055035;
+  color: #fff;
+}
+.icont2_R ul li:nth-child(2){
+  margin: 0 8px;
+}
+.icont2_R ul li:nth-child(5){
+  margin: 0 8px;
+}
+.icont2_R ul li:nth-child(-n+3){
+  margin-bottom:8px;
+}

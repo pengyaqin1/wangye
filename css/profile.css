@@ -1,0 +1,150 @@
+.banner{
+  position: relative;
+  width: 100%;
+  height: 308px;
+  overflow: hidden;
+}
+.banner ul li{
+  width: 100%;
+  height: 100%;
+}
+.school-profile .title{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #F4F4F4;
+  
+}
+.title-L{
+  float: left;
+}
+.title-L h2{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 20px;
+  color: #055035;
+}
+.title-L h2::after{
+  content: '|';
+  height: 23px;
+  color: #055035;
+  padding: 0 14px;
+}
+
+.title-L span{
+  font-size: 22px;
+  color: #D7D7D7;
+}
+.title-R ul li{
+  float: right;
+}
+.content{
+  margin-top: 20px;
+}
+.content .list-L{
+  float: left;
+  margin-right: 60px;
+}
+.list-L .up ul{
+  width: 250px;
+  background-color: #F4F4F4;
+}
+.list-L .up ul li{
+  width: 209px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333333;
+  margin-left: 20px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.list-L .up ul li::before{
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: #E6E6E6;
+  border-radius: 50%;
+  margin: 0 27px 0 6px;
+}
+.content .list-L .down{
+  margin-top: 34px;
+  width: 250px;
+  height: 395px;
+  background-color: #F4F4F4;
+}
+.down .down-hd{
+ height: 55px;
+  line-height: 55px;
+  color: #055035;
+  overflow: hidden;
+}
+.down-hd h2{
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 27px;
+}
+.down-hd a{
+  float: right;
+  font-size: 12px;
+  color: #055035;
+}
+.down-hd a::after{
+  content: '\e91e';
+  font-family: 'icomoon';
+  font-size: 20px;
+  font-weight: 700;
+  color: #055035;
+  vertical-align: middle;
+  padding-right: 19px;
+}
+.down-bd ul{
+  width: 244px;
+  height: 335px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.down-bd ul li{
+  width: 220px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dashed #B6B6B6;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+.down-bd ul li::before{
+  content: '|';
+  width: 2px;
+  height: 12px;
+  vertical-align: top;
+  padding-right: 8px;
+}
+.down-bd ul li a:hover{
+  color: #055035;
+}
+.content .content-R{
+  float: right;
+  width: 890px;
+  background-color: #f4f4f4;
+}
+.content-R .vsb{
+  width: 786px;
+  margin:24px auto;
+}
+.vsb h2{
+ height: 51px;
+ line-height: 51px;
+  font-weight: 700;
+  text-align: center;
+ color: #055035;
+}
+.vsb h2:nth-child(n+1){
+   margin-top: 39px;
+}
+.vsb p{
+  width: 100%;
+  font-size: 16px;
+  text-indent: 2em;
+  line-height: 2em;
+  margin: 15px 0;
+}

@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?fyk5xj');
+  src: url('../fonts/icomoon.eot?fyk5xj#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fyk5xj') format('truetype'),
+    url('../fonts/icomoon.woff?fyk5xj') format('woff'),
+    url('../fonts/icomoon.svg?fyk5xj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.style-color{
+  background-color: #1E6F46;
+  color: #fff !important;
+}
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  height: 124px;
+  background-color: #055035;
+}
+.logo{
+  float: left;
+  width: 387px;
+  height: 76px;
+  padding-top: 23px;
+}
+.logo a{
+  display: block;
+  width: 387px;
+  height: 76px;
+  background: url(../images/logo.png) no-repeat;
+  font-size: 0;
+ 
+}
+.top{
+  float: right;
+  width: 350px;
+  height: 124px;
+  font-size: 14px;
+  color: #fff;
+  background: url(../images/itop_bg.jpg) no-repeat;
+  padding-top: 30px;
+  text-align: right;
+}
+.top-box {
+  position: relative;
+}
+.top-box a{
+  color: #fff;
+}
+.top-box i{
+  padding: 0 14px;
+}
+.top-box .email::before{
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 60px;
+  width: 21px;
+  height: 14px;
+  background: url(../images/icon_mail.png) no-repeat;
+}
+.search {
+  position: relative;
+}
+.search input{
+  width: 320px;
+  height: 30px;
+  font-size: 12px;
+  color: #949494;
+  padding-left: 22px;
+  margin-top: 10px;
+}
+.search::after{
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/icon_fdj.png) no-repeat;
+}
+.search i{
+  position: absolute;
+  top: 14px;
+  right: 48px;
+  width: 1px;
+  height: 21px;
+  background-color: #000;
+}
+nav{
+  width: 100%;
+  line-height: 43px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #055035;
+  z-index: 3;
+}
+nav a{
+  display: block;
+}
+nav ul{
+  height: 43px;
+
+}
+nav ul li{
+  position: relative;
+  float: left;
+  width: 108px;
+  height: 100%;
+}
+nav ul li:nth-child(n+1)>a::after{
+  content: '\e91e';
+  font-family: 'icomoon';
+  width: 11px;
+  height: 8px;
+  padding-left: 3px;
+}
+nav ul li:first-child>a::after{
+  content: '\e900';
+  font-family: 'icomoon';
+  width: 8px;
+  height: 8px;
+  color: #fff;
+  padding-left: 5px;
+}
+nav li:hover>a{
+  background-color:#1E6F46;
+  color:#fff;
+}
+nav li:hover .submenu{
+  position: absolute;
+  top: 44px;
+  width: 109px;
+  z-index: 1;
+  background: rgba(5,80,53,0.7);
+}
+nav li .submenu a{
+  color: #fff;
+}
+nav li .submenu a:hover{
+display: block;
+background-color: #1E6F46;
+}
+nav li .submenu .ch{
+  line-height: 20px;
+  height: 43px;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 193px;
+  background: url(../images/ifoot_bg.jpg) no-repeat;
+  margin-top: 55px;
+}
+.footL{
+  float: left;
+  position: relative;
+  width: 693px;
+  height: 40px;
+  padding-top: 80px;
+}
+.footbg{
+  float: left;
+  width: 322px;
+  height:40px;
+  background: url(../images/ifoot_txt.png) no-repeat;
+
+}
+.footL .address{
+ float: right;
+  font-size: 12px;
+  color: #fff;
+}
+.footL i{
+  position: absolute;
+  top: 80px;
+  left: 363px;
+  width: 2px;
+  height: 34px;
+  background-color:#fff ;
+}
+.footR{
+  float: left;
+  margin:70px 0 0 62px;
+}
+.footR ul li{
+  position: relative;
+  float: left;
+  width: 58px;
+  height: 36px;
+  text-align: center;
+  margin-right: 15px;
+}
+.footR ul li em{
+  display: block;
+  width: 64px;
+  height: 35px;
+  line-height: 35px;
+}
+.footR ul li div{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 14px;
+}
+
+.footR ul .li{
+display: none;
+position: absolute;
+top: -115px;
+left:-18px;
+width: 100px;
+height: 100px;
+}
+.footR ul li:hover .li{
+  display: block;
+  }
+.bottom{
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.bottom p{
+  color: #676767;
+}
